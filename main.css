@@ -1,0 +1,62 @@
+body{margin:0;padding:0;}
+.footer-top{
+  background-color: #0F3661;
+padding: 75px 0;}
+.footer-logo h2 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align:center;
+    font-family: 'Arimo', sans-serif;
+}
+h3{color:#fff;padding-top:5%;font-family: 'Arimo', sans-serif;}
+h3 a{text-decoration:none;color:#fff;font-weight:900}
+h2{width:100%;text-align:center;}
+.open,.wipe{
+    margin:0 auto;
+    overflow:hidden
+}
+.open,.typing,.wipe{
+    overflow:hidden
+}
+.cssanimation,.cssanimation span{
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+.cssanimation span{
+    display:inline-block
+}
+.infinite{
+    -webkit-animation-iteration-count:infinite!important;
+    animation-iteration-count:infinite!important
+}
+
+.leSnake span{
+    -webkit-animation:leSnake 1.5s ease-in-out;
+    animation:leSnake 1.5s ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+    animation-iteration-count:infinite
+}
+@-webkit-keyframes leSnake{
+    from,to{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    50%{
+        -webkit-transform:translateY(30px);
+        transform:translateY(30px)
+    }
+}
+@keyframes leSnake{
+    from,to{
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    50%{
+        -webkit-transform:translateY(30px);
+        transform:translateY(30px)
+    }
+}
